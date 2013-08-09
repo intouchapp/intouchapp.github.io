@@ -1,46 +1,20 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: InTouch
+tagline: Welcome to our Humble Abode
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+InTouch started out as an idea we had at [Triangle Startup Weekend 2013](http://triangle.startupweekend.org/). It has since grown into a mobile app that allows you to quickly organize and connect with your networks. It features connectivity with your local address book and LinkedIn. Currently we supports iOS only.
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+Signup to our [email list](http://signup.intouchapp.co).
 
-## Update Author Attributes
 
-In `_config.yml` remember to specify your own data:
+
+## Who We Are
+
+We're two developers on a mission:
+Ibraheem Khalifa (<a href="https://github.com/ibraheemk" class="user-mention">@ibraheemk</a>) is a Raleigh native who works for EMC as a software engineer in data analytics.
+Daniel Hammond (<a href="https://github.com/danielrhammond" class="user-mention">@danielrhammond</a>) lives in Durham and works for Two Toasters a mobile app consulting company.
     
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
 
