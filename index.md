@@ -9,6 +9,5 @@ tagline: Welcome to our Humble Abode
     <header>
       <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
     </header>
-    <div class="entry">{{ post.excerpt }}</div>
   </article>
 {% endfor %}
