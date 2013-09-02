@@ -1,9 +1,9 @@
-yout: page
+---
+layout: page
 title: InTouch
-header: Connecting you with your networks.
+tagline: Welcome to our Humble Abode
 ---
 {% include JB/setup %}
-
 
 {% for post in site.posts limit: 5 %}
   <article>
