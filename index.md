@@ -7,8 +7,8 @@ tagline: Welcome to our Humble Abode
 
 <div id="posts">
 	{% for post in site.posts limit: 3 %}
-		<div class="post">
-			<div class="title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+		<p>
+			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			<div class="content">{{ post.content }}</div>
 			<div class="footer"> 
 				<div class="tags">
@@ -20,6 +20,6 @@ tagline: Welcome to our Humble Abode
 				<span><a class="category" href="/categories.html#{{ post.category }}">{{ post.category }}</a></span>
 				<span><a class="comments" href="{{ post.url }}#disqus_thread"></a></span>
 			</div>
-		</div>
+		</p>
 	{% endfor %}
 </div>
